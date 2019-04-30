@@ -13,58 +13,90 @@ body{
 	line-height: 1.5;
 }
 
+/*--------HEADER-------*/
 header{
 	grid-area: header;
-	background-color: dimgray;
-
 }
 
+header h1{
+	font-size: 3.25em;
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px #22638E;
+	}
+
+/*--------NAV-------*/
 nav{
 	grid-area: nav;
-	background-color: darkviolet;
 }
 
+.options{
+	width: 95%;
+	background-color: white;
+	padding: 10px;
+	border-top: 3px solid #3498db;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.options-link{
+	text-decoration: none;
+	font-size: 0.9em;
+	color: #3498db;
+}
+
+.options-link:hover{
+	color: darkgreen;
+	text-decoration: underline;
+}
+
+/*--------CARD GRID-------*/
 #login{
 	grid-area: login;
-	background-color: red;
-
 }
 
 #enhance_your_career{
 	grid-area: enhance_your_career;
-	background-color: blue;
 }
 
 #important_stats{
 	grid-area: important_stats;
-	background-color: green;
-
 }
 
 #build_apps{
 	grid-area: build_apps;
-	background-color: olive;
-
 }
 
 #build_games{
 	grid-area: build_games;
-	background-color: chocolate;
-
 }
 
 #build_websites{
 	grid-area: build_websites;
-	background-color: mediumaquamarine;
-
 }
 
+.card{
+	background-color: white;
+	color: blue;	/*CHANGED BY ME*/
+}
+
+.card-blue{
+	background-color: #9ebcf5;
+}
+
+
+/*--------FOOTER-------*/
 footer{
 	grid-area: footer;
-	background-color: crimson;
-
+	margin: 20px 0;
+	text-align: center;
 }
 
+
+/*--------RESPONSIVE STYLE-------*/
 @media(min-width: 1100px){
 	main{
 		width: 90%;
