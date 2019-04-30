@@ -1,0 +1,34 @@
+/*Overwrites the default browsers config*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #131633;
+	color: #34495e;
+	line-height: 1.5;
+}
+
+
+
+#login{
+
+}
+#enhance_your_career{
+
+}
+#important_stats{
+
+}
+#build_apps{
+
+}
+#build_games{
+
+}
+#websites{
+	
+}
