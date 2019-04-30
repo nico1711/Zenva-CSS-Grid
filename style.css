@@ -9,26 +9,132 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	background-color: #131633;
 	color: #34495e;
+	color: white;
 	line-height: 1.5;
 }
 
+header{
+	grid-area: header;
+	background-color: dimgray;
 
+}
+
+nav{
+	grid-area: nav;
+	background-color: darkviolet;
+}
 
 #login{
+	grid-area: login;
+	background-color: red;
 
 }
+
 #enhance_your_career{
-
+	grid-area: enhance_your_career;
+	background-color: blue;
 }
+
 #important_stats{
+	grid-area: important_stats;
+	background-color: green;
 
 }
+
 #build_apps{
+	grid-area: build_apps;
+	background-color: olive;
 
 }
+
 #build_games{
+	grid-area: build_games;
+	background-color: chocolate;
 
 }
-#websites{
-	
+
+#build_websites{
+	grid-area: build_websites;
+	background-color: mediumaquamarine;
+
 }
+
+footer{
+	grid-area: footer;
+	background-color: crimson;
+
+}
+
+@media(min-width: 1100px){
+	main{
+		width: 90%;
+		max-width: 800px;
+
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 10vh 4vh 38vh 38vh 10vh;
+		grid-gap: 15px;
+		margin: 0 auto;
+	}
+
+	#container{
+		grid-template-areas: 
+			"header header header"
+			"nav nav nav"
+			"login enhance_your_career important_stats"
+			"build_apps build_games build_websites"
+			"footer footer footer"
+	}
+}
+
+@media(max-width: 1100px){
+	main{
+		width: 90%;
+		max-width: 800px;
+
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 10vh 4vh 25vh 25vh 25vh 10vh;
+		grid-gap: 15px;
+		margin: 0 auto;
+	}
+
+	#container{
+		grid-template-areas: 
+			"header header"
+			"nav nav"
+			"login enhance_your_career" 
+			"important_stats build_apps" 
+			"build_games build_websites"
+			"footer footer"
+	}
+}
+
+@media(max-width: 500px){
+	main{
+		width: 90%;
+		max-width: 800px;
+
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 10vh 6vh 13vh 13vh 13vh 13vh 13vh 13vh 6vh;
+		grid-gap: 15px;
+		margin: 0 auto;
+	}
+
+	#container{
+		grid-template-areas: 
+			"header"
+			"nav"
+			"login" 
+			"enhance_your_career" 
+			"important_stats" 
+			"build_apps" 
+			"build_games" 
+			"build_websites"
+			"footer"
+	}
+}
+
+
+
