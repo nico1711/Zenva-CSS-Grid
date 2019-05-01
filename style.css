@@ -9,7 +9,6 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	background-color: #131633;
 	color: #34495e;
-	color: white;
 	line-height: 1.5;
 }
 
@@ -80,13 +79,55 @@ nav{
 
 .card{
 	background-color: white;
-	color: blue;	/*CHANGED BY ME*/
 }
 
 .card-blue{
 	background-color: #9ebcf5;
 }
 
+.card-title{
+	color: white;
+	background-color: #4f97d5;
+	font-size: 1.25em;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+input{
+	width: 85%;
+	color: darkblue;
+	background-color: aliceblue;
+	font-size: 1.25em;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+section{
+	padding: 10px;
+	text-align: center;
+
+}
+
+.graphs{
+	font-size: 100px;
+	line-height: 1;
+	margin: 10px 0;
+	text-align: center;
+}
+
+section img{
+	max-width: 100%
+
+}
+
+.profile{
+	width: 50%;
+	border-radius: 50%;
+	margin-bottom: 5px;
+	border: 6px solid #4f97d5;
+}
 
 /*--------FOOTER-------*/
 footer{

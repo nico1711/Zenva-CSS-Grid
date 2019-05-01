@@ -4,7 +4,10 @@
 	<meta charset="utf-8">
 	<!-- This ensures the page will look good no matter what the device width is -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Link to the style.css file -->
 	<link rel="stylesheet" href="style.css">
+	<!-- Link to the google font Open Sans from GoogleAPIs -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<title>Zenva Grid Layout</title>
 </head>
 <body>
@@ -21,12 +24,65 @@
 			<a href="https://academy.zenva.com/product-category/english/web-development/?zva_src=zenva-homepage-web" target="_blank"class="options-link">Build Websites</a>
 		</nav>
 		<!----------CARD GRID-------->
-		<div class="card" id="login">LOG-IN</div>
-		<div class="card" id="enhance_your_career">Enhance Your Career</div>
-		<div class="card" id="important_stats">Important Stats</div>
-		<div class="card-blue" id="build_apps">Build Apps</div>
-		<div class="card-blue" id="build_games">Build Games</div>
-		<div class="card-blue" id="build_websites">Build Websites</div>
+			<!----------LOGIN--------->
+		<div class="card" id="login">
+			<h2 class="card-title">LOG-IN <span style="font-size: 26px">&#x1F601;&nbsp;</span></h2>
+			<section>
+				<form>
+					<input type="text" placeholder="Username"><br>
+					<input type="password" placeholder="Password"><br>
+					<input type="submit" value="Submit">
+				</form>
+			</section>
+		</div>
+			<!-----ENHANCE YOUR CAREER--->
+		<div class="card" id="enhance_your_career">
+			<h2 class="card-title">Enhance Your Career</h2>
+			<section>
+				<img class="section-img profile" src="images/pexels-photo-380769.jpeg" alt="office photo">
+				<p>We bring to the table win-win survival strategies to ensure proactive domination. At the end of the day a new normal that has evolved from generation X.</p>
+
+				<p><a class="btn" href="#">Learn more&#8230;</a></p>
+			</section>
+		</div>
+			<!-----IMPORTANT STATS--->
+		<div class="card" id="important_stats">
+			<h2 class="card-title">Important Stats</h2>
+			<section>
+				<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.</p>
+				<p class="graphs">&#x1F4C8;&#128202;</p>
+				<br>
+				<p><a class="btn" href="#">Learn more&#8230;</a></p>
+			</section>
+		</div>
+			<!-----BUILD APPS--->
+		<div class="card-blue" id="build_apps">
+			<h2 class="card-title">Build Apps</h2>
+			<section>
+				<p>Organically grow efficiently extend granular markets view of innovation via workplace credibly iterate fully tested technologies.</p>
+				<img src="images/img_app.png" alt="">
+				<p><a class="btn" href="#">Learn more&#8230;</a></p>
+			</section>
+		</div>
+			<!-----BUILD GAMES--->
+		<div class="card-blue" id="build_games">
+			<h2 class="card-title">Build Games</h2>			
+			<section>
+				<p>If you deliver ultra-globally, you may have to iterate intuitively. We will aggregate the capability of e-businesses to grow exponentially.</p>
+				<img src="images/img_game.png" alt="">
+				<p><a class="btn" href="#">Learn more&#8230;</a></p>
+			</section>
+		</div>
+			<!-----BUILD WEBSITES--->
+		<div class="card-blue" id="build_websites">
+			<h2 class="card-title">Build Websites</h2>
+			<section>
+				<p>Dynamically  B2C users after installed base benefits. Collaboratively visualize customer directed convergence without revolutionary ROI.</p>
+				<img src="images/img_web.png" alt="">
+				<p><a class="btn" href="#">Learn more&#8230;</a></p>
+			</section>
+		</div>
+
 		<!----------FOOTER-------->
 		<footer>
 			<img src="images/logo.png" alt="ZENVA logo">
